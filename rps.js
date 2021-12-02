@@ -34,7 +34,7 @@ function computerPlay() {
 }
 
 
-var userChoice = 'scissors';
+var userChoice = 'scissors'; // Input user's choice here.
 var computerSelection = computerPlay();
 var result = playGame(userChoice, computerSelection)
 
